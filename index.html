@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Chinese Zodiac Search App</title>
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" href="css/animate.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,800' rel='stylesheet' type='text/css'>
+		
+		<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="bg">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					
+						<form>
+							<div>
+								<h1 id="main-title" class="animated bounceInLeft">Enter The Year When You Was Born!</h1>
+							</div>
+							<div>
+		  						<input id="zodiac" class="form-control" align="middle" placeholder="Just the 4 digit number~" >
+		  					</div>
+		  				
+		  					<div>
+		  					<br><br>
+		  						<button type="button" onclick="getZodiac()" class="btn btn-success btn-lg"><b>Check it!</b></button>
+		  					</div>
+		  					<div>
+		  						<h1 id="scrolldown" class="scrollshow"><b></b></h1>
+		  					</div>
+						</form>
+					</div>
+					
+					<div class="text-center">
+				 	<div><h1 id="zodiacname"></h1></div>
+					<div><h3 id="zodiacyear"></h3></div>
+			  		<div><img id="zodiacimage"></div>
+					<div><h4 id="zodiacstrength"></h4></div>
+			  		<div><h4 id="zodiacweakness"></h4></div>
+			  		<div><h4 id="best"></h4></div>
+			  		<div><h4 id="bad"></h4></div>
+		  		 </div>
+
+				</div>
+				
+				
+		</div>
+
+	
+
+	
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+	</body>
+</html>

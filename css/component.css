@@ -1,0 +1,75 @@
+/* Header */
+body {
+	background: #fff;
+	color: #383a3c;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.25;
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+.large-header {
+	position: relative;
+	width: 100%;
+	background: #333;
+
+	background-size: cover;
+	background-position: center center;
+	
+}
+
+.bg .large-header {
+	background-image: url('../img/demo-1-bg.jpg');
+}
+
+
+form {
+	text-align: center;
+	position: absolute;
+
+	top: 100px;
+	margin: 20px 30% 20px 30%;
+}
+#main-title {
+	
+	margin: 0;
+	padding: 0;
+	color: #f9f1e9;
+	text-align: center;
+	
+	font-size: 45px;
+	-webkit-transform: translate3d(-50%,-50%,0);
+	transform: translate3d(-50%,-50%,0);
+}
+#zodiac {
+	width: 50%;
+	height: 30px;
+	margin-top: 30px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 16px;
+
+}
+.btn {
+	border-radius: 8px;
+	font-size: 18px;
+	height: 35px;
+	width: 120px;
+	box-shadow: 3px 3px 8px #00004d;
+	background-color: #FFEB3B;
+
+}
+.btn:hover {
+	background-color: #0000cc;
+	color: white;
+}
+.text-center {
+	color: black;
+	text-align: center;
+}
+
+.scrollshow {
+	display: block;
+	color: white;
+	margin-top: 80px;
+}
